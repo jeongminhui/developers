@@ -6,16 +6,16 @@ const path = require('path');
 const multer = require('multer');
 
 // 이미지 업로드 설정
-// const storage = multer.diskStorage({
-//   destination: function (req, file, cb) {
-//       cb(null, 'uploads/'); // 이미지가 저장될 폴더
-//   },
-//   filename: function (req, file, cb) {
-//     const ext = path.extname(file.originalname);
-//     const filename = `${Date.now()}-${Math.round(Math.random() * 1E9)}${ext}`;
-//     cb(null, filename);
-//   }
-// });
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+      cb(null, 'uploads/'); // 이미지가 저장될 폴더
+  },
+  filename: function (req, file, cb) {
+    const ext = path.extname(file.originalname);
+    const filename = `${Date.now()}-${Math.round(Math.random() * 1E9)}${ext}`;
+    cb(null, filename);
+  }
+});
 
 // const upload = multer({ storage: storage });
 const upload = multer({
