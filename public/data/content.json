@@ -1,0 +1,220 @@
+[
+  {
+    "label": "시작하기",
+    "href": "#home",
+    "title": "홈 페이지",
+    "content": "<figure class=\"image\"><img style=\"aspect-ratio:3608/1600;\" src=\"http://192.168.0.114:3333/uploads/1731482426308-555779486.png\" width=\"3608\" height=\"1600\"></figure><p><span style=\"background-color:hsl(30,75%,60%);color:hsl(0,0%,90%);\">ㅋㅋㅋㅌㅌㅌㅌ<mark class=\"marker-yellow\">ㅁㅁㅁㅁ</mark></span></p><figure class=\"table\"><table><thead><tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody><tr><th>&nbsp;</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>&nbsp;</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>&nbsp;</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>&nbsp;</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>&nbsp;</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><pre><code class=\"language-javascript hljs\" data-highlighted=\"yes\">let aa = 11;\nconst bb = { \"key\":\"value\" };\naa !== bb\nconsole.log('hello') </code></pre>",
+    "submenu": [
+      {
+        "label": "이용안내",
+        "href": "#guide",
+        "title": "이용 안내",
+        "content": "서비스 이용 방법에 대해 안내합니다."
+      },
+      {
+        "label": "필수 준비사항",
+        "href": "#requirements",
+        "title": "필수 준비사항",
+        "content": "서비스를 이용하기 위한 필수 준비사항입니다.",
+        "hasIcon": true,
+        "submenu": [
+          {
+            "label": "중계서버",
+            "href": "#proxy-server",
+            "title": "중계 서버",
+            "content": "중계 서버 설정과 작동 방식에 대한 설명입니다."
+          },
+          {
+            "label": "MPI KEY",
+            "href": "#mpi-key",
+            "title": "MPI Key",
+            "content": "MPI Key의 생성 및 활용 방법에 대해 안내합니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "API 가이드",
+    "href": "#api-guide",
+    "title": "API 가이드",
+    "content": "API 사용법과 요청/응답 형식에 대한 가이드입니다."
+  },
+  {
+    "label": "병원",
+    "href": "#hospital",
+    "title": "병원 정보",
+    "content": "병원 관련 정보와 API 연동 방법을 안내합니다.",
+    "submenu": [
+      {
+        "label": "병원 정보",
+        "href": "#hospital-info",
+        "title": "병원 정보",
+        "content": "병원 정보를 관리하고 조회하는 방법을 안내합니다.",
+        "hasIcon": true,
+        "submenu": [
+          {
+            "label": "이해하기",
+            "href": "#hospital-info-understanding",
+            "title": "병원 정보 이해하기",
+            "content": "병원 정보의 구조와 의미를 설명합니다."
+          },
+          {
+            "label": "REST API",
+            "href": "#hospital-info-api",
+            "title": "병원 정보 REST API",
+            "content": "병원 정보를 조회하고 관리하는 REST API를 제공합니다.",
+            "submenu": [
+              {
+                "label": "병원 정보 조회",
+                "href": "#get-hospital-info",
+                "title": "병원 정보 조회",
+                "content": "<p>특정 병원의 정보를 조회하는 API입니다.aaaaa</p>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "가입/계정/환자정보",
+    "href": "#account",
+    "title": "가입, 계정 및 환자 정보",
+    "content": "가입 및 계정 관리와 환자 정보 조회에 대한 API를 설명합니다.",
+    "submenu": [
+      {
+        "label": "환자 정보",
+        "href": "#patient-info",
+        "title": "환자 정보",
+        "content": "환자 정보와 관련된 기능을 다룹니다.",
+        "hasIcon": true,
+        "submenu": [
+          {
+            "label": "이해하기",
+            "href": "#patient-info-understanding",
+            "title": "환자 정보 이해하기",
+            "content": "환자 정보에 대해 이해할 수 있는 주요 사항들을 설명합니다."
+          },
+          {
+            "label": "REST API",
+            "href": "#patient-info-api",
+            "title": "환자 정보 REST API",
+            "content": "환자 정보와 관련된 REST API 목록입니다.",
+            "submenu": [
+              {
+                "label": "환자 실명 인증 정보 조회",
+                "href": "#verify-real-name",
+                "title": "환자 실명 인증 정보 조회",
+                "content": "환자의 실명 인증 상태를 조회하는 API입니다."
+              },
+              {
+                "label": "병원 환자등록 여부 조회",
+                "href": "#check-registration",
+                "title": "병원 환자 등록 조회",
+                "content": "병원에 환자가 등록되어 있는지 확인하는 API입니다."
+              },
+              {
+                "label": "병원 환자정보 조회",
+                "href": "#get-patient-info",
+                "title": "병원 환자 정보 조회",
+                "content": "특정 환자의 정보를 병원 데이터베이스에서 조회합니다."
+              },
+              {
+                "label": "병원 환자정보 업데이트",
+                "href": "#update-patient-info",
+                "title": "병원 환자 정보 업데이트",
+                "content": "병원 시스템에서 환자의 정보를 업데이트합니다."
+              },
+              {
+                "label": "환자번호 생성",
+                "href": "#generate-patient-id",
+                "title": "환자번호 생성",
+                "content": "환자 식별을 위한 고유 번호를 생성합니다."
+              },
+              {
+                "label": "환자 MPI Key와 주민등록번호 매핑",
+                "href": "#map-mpi-key",
+                "title": "MPI Key와 주민등록번호 매핑",
+                "content": "환자 MPI Key와 주민등록번호를 매핑합니다."
+              },
+              {
+                "label": "환자 MPI Key를 이용해 매핑 정보 제거",
+                "href": "#remove-mpi-mapping",
+                "title": "MPI 매핑 정보 제거",
+                "content": "환자 MPI Key에 연결된 매핑 정보를 삭제합니다."
+              },
+              {
+                "label": "환자 주민등록번호로 MPI Key 조회",
+                "href": "#get-mpi-by-id",
+                "title": "MPI Key 조회",
+                "content": "주민등록번호를 통해 환자의 MPI Key를 조회합니다."
+              },
+              {
+                "label": "환자 동의 항목 전송",
+                "href": "#send-consent",
+                "title": "환자 동의 항목 전송",
+                "content": "환자의 동의 항목을 서버로 전송합니다."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "외래서비스",
+    "href": "#outpatient-service",
+    "title": "외래 서비스",
+    "content": "외래 서비스의 다양한 기능과 API를 설명합니다.",
+    "submenu": [
+      {
+        "label": "진료예약",
+        "href": "#appointment",
+        "title": "진료 예약",
+        "content": "진료 예약과 관련된 기능을 제공합니다.",
+        "hasIcon": true,
+        "submenu": [
+          {
+            "label": "이해하기",
+            "href": "#appointment-understanding",
+            "title": "진료 예약 이해하기",
+            "content": "진료 예약의 절차와 원칙을 설명합니다."
+          },
+          {
+            "label": "REST API",
+            "href": "#appointment-api",
+            "title": "진료 예약 REST API",
+            "content": "진료 예약 관련 REST API를 제공합니다.",
+            "submenu": [
+              {
+                "label": "진료과 리스트 조회",
+                "href": "#get-department-list",
+                "title": "진료과 리스트 조회",
+                "content": "병원의 모든 진료과 목록을 조회하는 API입니다."
+              },
+              {
+                "label": "센터코드와 진료과 코드로 조회",
+                "href": "#get-by-center-code",
+                "title": "센터코드로 조회",
+                "content": "특정 센터코드와 진료과 코드로 진료과를 조회합니다."
+              },
+              {
+                "label": "진료의 이름으로 조회",
+                "href": "#get-by-doctor-name",
+                "title": "진료의 이름으로 조회",
+                "content": "의사의 이름을 기반으로 진료의 목록을 조회합니다."
+              },
+              {
+                "label": "진료의 사번으로 조회",
+                "href": "#get-by-doctor-id",
+                "title": "진료의 사번으로 조회",
+                "content": "의사의 사번을 통해 진료의 정보를 조회합니다."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

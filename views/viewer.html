@@ -1,0 +1,127 @@
+<!-- views\viewer.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/img-khc-icon.png" />
+
+    <title>KHC_developers</title>
+    <!-- Import map -->
+    <script type="importmap">
+      {
+        "imports": {
+          "ckeditor5": "/libs/ckeditor5/ckeditor5.js",
+          "ckeditor5/": "/libs/ckeditor5/"
+        }
+      }
+    </script>
+    <!-- 스타일시트 -->
+    <link rel="stylesheet" href="/css/developers-index.css" />
+    <link rel="stylesheet" href="/libs/ckeditor5/ckeditor5.css" />
+    <link rel="stylesheet" href="/css/ck-styles.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/a11y-dark.min.css" integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/atom-one-dark.min.css" integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/go.min.js"></script>
+
+
+    <!-- jQuery CDN 사용 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- 모듈 스크립트 로드 -->
+    <!-- 자바스크립트 모듈 로드 -->
+    <!-- <script type="module" src="/js/content/contentApi.js"></script> -->
+    <script type="module" src="/js/content/contentLoader.js"></script>
+    <!-- <script type="module" src="/js/content/contentUtils.js"></script> -->
+    <!-- <script type="module" src="/js/core/utils.js"></script> -->
+    <!-- <script type="module" src="/js/editor/editorConfig.js"></script> -->
+    <!-- <script type="module" src="/js/editor/editorControls.js"></script> -->
+    <script type="module" src="/js/menu/menuLoader.js"></script>
+    <script type="module" src="/js/ui/breadcrumbRenderer.js"></script>
+  </head>
+
+  <body>
+    <div class="khcD-container">
+      <header class="khcD-header-wrap">
+        <div class="khcD-header">
+          <img
+            class="khcD-header-img"
+            src="/images/img-khc-icon.png"
+            alt="logo"
+          />
+          <a href="/" class="khcD-header-tit">케어챗 디벨로퍼스</a>
+        </div>
+        <div class="khcD-breadcrumb">
+          <ul></ul>
+          <!-- Breadcrumb이 여기 렌더링 -->
+        </div>
+      </header>
+      <div class="khcD-wrapper">
+        <div class="khcD-body-wrapper">
+          <div class="khcD-lnb-wrap">
+            <nav class="khcD-lnb-menu">
+              <ul class="menu-list depth-1-wrap">
+                <!-- JSON 데이터를 이용해 메뉴가 여기에 동적 생성됩니다 -->
+              </ul>
+            </nav>
+          </div>
+          <div class="khcD-content-wrap">
+            <div class="khcD-content-body">
+              <div class="khcD-content-title">
+                <!-- 페이지 타이틀 -->
+              </div>
+              <div class="khcD-content-editor">
+                <div class="khcD-editor ck-content">
+                  <!-- 콘텐츠 영역 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 푸터 추가 -->
+        <footer>
+          <div class="khcD-footer-wrap">
+            <div class="khcD-footer-left">
+              COPYRIGHT © 2023 kakaohealthcare Corp. ALL RIGHTS RESERVED
+            </div>
+            <div class="khcD-footer-right">
+              <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+              </ul>
+              <div class="khcD-link-box">
+                <span>Family Site</span>
+                <span class="khcD-plus-icon"></span>
+                <div class="khcD-dropdown">
+                  <ul>
+                    <li><a href="#">케어챗 홈페이지</a></li>
+                    <li><a href="#">케어챗 파트너스</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- 스크롤 업 버튼 추가 -->
+        <div class="scroll-up" id="scrollButton">
+          <img src="/images/arrow-up.svg" alt="Scroll Up" />
+        </div>
+      </div>
+    </div>
+
+    <!-- JSON 데이터를 로드하고 페이지를 동적으로 구성하는 스크립트 -->
+    <!-- <script src="/js/contentLoader.js"></script> -->
+
+
+    <!-- <script type="text/javascript" src="/js/menu.js"></script> -->
+    <!-- <script type="text/javascript" src="/js/developers-custom.js"></script> -->
+  </body>
+</html>

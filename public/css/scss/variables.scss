@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/* KHDS */
+$KHDS-OnSurface0: #0a0a0a; // main text
+$KHDS-OnBackground0: #0a0a0a; // main text
+$KHDS-OnBackground40: #606571; //  sub text
+$KHDS-OnSurface40: #606571; //  sub text
+$KHDS-OnSurface60: #80848e; //  sub text
+$KHDS-OnBackground60: #80848e; // placeholder, sub icon
+$KHDS-Disabled: #d3d5da;
+$KHDS-Line: #05070f29; // default line
+$KHDS-SecondaryLine: #05070f14; // second line
+$KHDS-SecondaryBackground: #f6f7f8;
+$KHDS-Error: #bf0000;
+$KHDS-Primary: #0657f9;
+$KHDS-PrimaryContainer: #0657f9;
+$KHDS-PrimaryContainer95: #e5eeff;
+$KHDS-Surface: #ffffff;
+$KHDS-All-DimBG: #05070f80;
+$KHDS-Background: #f6f7f8;
+$KHDS-OnPimaryContainer: #ffffff;
+
+/* KHDS-ALL */
+$All-DimBG: #05070f80;
+$All-Black: #0a0a0a;
+$All-OnBlack0: #ffffff;
+$All-OnBlackLine: #ffffff29;
+$All-OnWhiteSecondaryLine: #05070f14;
+$All-Toast: #606571;
+$All-OnToast: #ffffff;
+
+/*HAYCORN ColorToken*/
+$ColorSurface-BlueSurface: #ccddff;
+$ColorSurface-GreenSurface: #c8f8dc;
+$ColorSurface-SkySurface: #b8e8ff;
+$ColorSurface-PurpleSurface: #e0c2ff;
+$ColorSurface-YellowSurface: #fff0b2;
+$ColorSurface-RedSurface: #ffc6c2;
+$ColorSurface-BlueOnSurface: #01153c;
+$ColorSurface-GreenOnSurface: #023b1a;
+$ColorSurface-SkyOnSurface: #00293d;
+$ColorSurface-PurpleOnSurface: #39036d;
+$ColorSurface-YellowOnSurface: #3d2b00;
+$ColorSurface-RedOnSurface: #6d0a03;
+
+$State-Safe: #0eaa4f;
+$State-Emphasize: #ffcd00;
+$State-LightSafe: #5ee898;
+$State-LightEmphasize: #fff0b2;
+
+/*HAYCORN ColorValue - Blue*/
+$Blue-95: #e5eeff;
+$Blue-90: #ccddff;
+$Blue-80: #99bbff;
+$Blue-70: #6699ff;
+$Blue-60: #3377ff;
+$Blue-50: #0657f9;
+$Blue-35: #053dae;
+$Blue-25: #042c7c;
+$Blue-10: #01153c;
+
+/*HAYCORN ColorValue - Sky*/
+$Sky-95: #e0f4ff;
+$Sky-85: #b8e8ff;
+$Sky-75: #80d5ff;
+$Sky-65: #4dc3ff;
+$Sky-50: #00a7fa;
+$Sky-40: #008fd6;
+$Sky-30: #006ca3;
+$Sky-20: #00486b;
+$Sky-10: #00293d;
+
+/*HAYCORN ColorValue - Green*/
+$Green-95: #e3fcee;
+$Green-90: #c8f8dc;
+$Green-80: #9df1c0;
+$Green-65: #5ee898;
+$Green-45: #17cf63;
+$Green-35: #0eaa4f;
+$Green-25: #0a803b;
+$Green-20: #055c29;
+$Green-10: #023b1a;
+
+/*HAYCORN ColorValue - Yellow*/
+$Yellow-95: #fff9e0;
+$Yellow-85: #fff0b2;
+$Yellow-75: #ffe57a;
+$Yellow-60: #ffd633;
+$Yellow-50: #ffcd00;
+$Yellow-45: #e5a400;
+$Yellow-30: #a37200;
+$Yellow-20: #6b4b00;
+$Yellow-10: #3d2b00;
+
+/*HAYCORN ColorValue - Orange*/
+$Orange-95: #ffeadb;
+$Orange-85: #ffd3b8;
+$Orange-70: #ffaa75;
+$Orange-60: #ff873d;
+$Orange-50: #ff6200;
+$Orange-40: #cc4e00;
+$Orange-30: #993a00;
+$Orange-20: #662700;
+$Orange-10: #3d1700;
+
+/*HAYCORN ColorValue - Red*/
+$Red-95: #ffe2e0;
+$Red-90: #ffc6c2;
+$Red-80: #fe9790;
+$Red-70: #fc695f;
+$Red-55: #f82e20;
+$Red-40: #d01306;
+$Red-30: #9e0f05;
+$Red-20: #6d0a03;
+$Red-10: #3b0602;
+
+/*HAYCORN ColorValue - Magenta*/
+$Magenta-9: #ffe0f1;
+$Magenta-9: #ffc2;
+$Magenta-8: #fe90ca;
+$Magenta-7: #fc5fb3;
+$Magenta-5: #ef2a93;
+$Magenta-4: #d00672;
+$Magenta-3: #9e0557;
+$Magenta-2: #6d033c;
+$Magenta-1: #3b0220;
+
+/*HAYCORN ColorValue - Purple*/
+
+$Purple-95: #f0e0ff;
+$Purple-90: #e0c2ff;
+$Purple-80: #ca95fe;
+$Purple-70: #ad60fb;
+$Purple-55: #8c1efb;
+$Purple-40: #6c05d1;
+$Purple-30: #52049f;
+$Purple-20: #39036d;
+$Purple-10: #210240;
+
+/*Chart ColorValue - Theme1*/
+$Theme1-1: $Blue-25;
+$Theme1-2: $Blue-70;
+$Theme1-3: $Magenta-5;
+$Theme1-4: $Magenta-8;
+$Theme1-5: $Magenta-9;
+$Theme1-6: $Yellow-50;
+$Theme1-7: $Yellow-45;
+$Theme1-8: $Yellow-30;
+$Theme1-9: $Sky-40;
+$Theme1-10: $Sky-50;
+$Theme1-11: $Sky-75;
+$Theme1-12: $Orange-85;
+$Theme1-13: $Orange-70;
+$Theme1-14: $Orange-50;
+$Theme1-15: $Green-35;
+$Theme1-16: $Green-25;
+$Theme1-17: $Green-20;
+$Theme1-18: $Blue-50;
+$Theme1-19: $Blue-60;

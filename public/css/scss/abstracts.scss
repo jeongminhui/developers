@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*Typo*/
+@mixin typo-large-20 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+font-family : 'NotoSansKR-DemiLight';
+}
+@mixin typo-medium-14 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+font-family : 'NotoSansKR-DemiLight';
+}
+@mixin typo-small-12 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+font-family : 'NotoSansKR-DemiLight';
+}
+
+@font-face{
+  font-family : 'NotoSansKR-Black';
+  src : 
+  url('../font/NotoSansKR-WEB/NotoSansKR-Black.otf') format('opentype'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Black.woff') format('woff'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Black.woff2') format('woff2');
+  font-weight : normal;
+  font-style : normal;
+}
+
+@font-face{
+  font-family : 'NotoSansKR-Bold';
+  src : 
+  url('../font/NotoSansKR-WEB/NotoSansKR-Bold.otf') format('opentype'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Bold.woff') format('woff'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Bold.woff2') format('woff2');
+  font-weight : normal;
+  font-style : normal;
+}
+
+@font-face{
+  font-family : 'NotoSansKR-DemiLight';
+  src : 
+  url('../font/NotoSansKR-WEB/NotoSansKR-DemiLight.otf') format('opentype'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-DemiLight.woff') format('woff'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-DemiLight.woff2') format('woff2');
+  font-weight : normal;
+  font-style : normal;
+}
+
+@font-face{
+  font-family : 'NotoSansKR-Regular';
+  src : 
+  url('../font/NotoSansKR-WEB/NotoSansKR-Regular.otf') format('opentype'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Regular.woff') format('woff'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Regular.woff2') format('woff2');
+  font-weight : normal;
+  font-style : normal;
+}
+
+@font-face{
+  font-family : 'NotoSansKR-Light';
+  src : 
+  url('../font/NotoSansKR-WEB/NotoSansKR-Light.otf') format('opentype'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Light.woff') format('woff'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Light.woff2') format('woff2');
+  font-weight : normal;
+  font-style : normal;
+}
+
+@font-face{
+  font-family : 'NotoSansKR-Thin';
+  src : 
+  url('../font/NotoSansKR-WEB/NotoSansKR-Thin.otf') format('opentype'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Thin.woff') format('woff'),
+  url('../font/NotoSansKR-WEB/NotoSansKR-Thin.woff2') format('woff2');
+  font-weight : normal;
+  font-style : normal;
+}
+

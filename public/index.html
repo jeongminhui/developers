@@ -1,0 +1,90 @@
+<!-- public\index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Site</title>
+    <link rel="stylesheet" href="/css/developers-index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/img-khc-icon.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/img-khc-icon.png"
+      sizes="96x96"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      button:hover {
+        /* background: rgba(5, 7, 15, 0.0784313725); */
+        background: #ebecec;
+      }
+
+      button {
+        /* padding: 100px; */
+        width: 20vw;
+        height: 10vh;
+        margin: 20px;
+        font-size: x-large;
+      }
+
+      h1 {
+        background-color: #0a0a0a;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        height: 100px;
+      }
+
+      header {
+        background-color: #0a0a0a;
+        color: white;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        color: #0a0a0a;
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>케어챗 디벨로퍼스</h1>
+      <p></p>
+    </header>
+
+    <main>
+      <!-- 모드 전환 버튼 -->
+      <button id="viewer-mode-btn">View Mode</button>
+      <button id="admin-mode-btn">Edit Mode</button>
+    </main>
+
+    <script>
+      // 모드 전환 버튼 이벤트 리스너
+      document
+        .getElementById("viewer-mode-btn")
+        .addEventListener("click", () => {
+          window.location.href = "/viewer";
+        });
+
+      document
+        .getElementById("admin-mode-btn")
+        .addEventListener("click", () => {
+          window.location.href = "/admin";
+        });
+    </script>
+  </body>
+</html>
